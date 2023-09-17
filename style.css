@@ -1,0 +1,73 @@
+/* boiler plate */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+
+}
+
+html,body{
+    height: 100vh;
+    width: 100%;
+    min-width: 380px;
+
+}
+
+/* calculator */
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #e3f9ff;
+
+}
+
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a4452;
+    padding: 20px;
+    border-radius: 20px;
+    min-width: 380px;
+}
+.calculator form input{
+    height: 60px;
+    width: 60px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: white;
+    margin: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 0;
+}
+
+ form .display input{
+    flex: 1;
+    text-align: right;
+    font-size: 45px;
+    color: #ffff;
+    font-size: px;
+    box-shadow: none;
+}
+
+.calculator form input.equal{
+    width: 145px;
+}
